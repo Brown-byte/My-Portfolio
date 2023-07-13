@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#1a324c">
+  <meta name="msapplication-navbutton-color" content="#1a324c">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="description" content=" The projects I have worked on.">
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/page.css" />
+  <link rel="stylesheet" href="css/projects.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y3FM96129M"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-Y3FM96129M');
+  </script>
+
+  <title>Projects</title>
+</head>
+
+<body>
+  <nav class="visible">
+    <div class="container">
+      <a href="/" class="nav-logo" title="Back to Homepage">
+        Emmanuella Tsali-Brown
+      </a>
+      <div class="nav-links">
+        <a href="about.html" class="link">About</a>
+        <a href="projects.html" class="link active">projects</a>
+        <a href="index1.html" class="link">Home</a>
+       
+        <div class="social-media">
+          <a href="https://github.com/Brown-byte" title="Github">
+            <i class="demo-icon icon-github-circled"></i>
+          </a>
+          <a href="" title="Twitter">
+            <i class="demo-icon icon-twitter"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/emmanuella-tsali-brown-6275a0228/" title="LinkedIn">
+            <i class="demo-icon icon-linkedin"></i>
+          </a>
+        </div>
+      </div>
+      <div class="nav-controls">
+        <button id="menu-display" title="Show Menu" class="hamburger">
+
+        </button>
+      
+   
+      </div>
+      <div class="theme-container">
+        <button class="light theme-select" id="light-select" onclick="setTheme('light')" aria-label="Set light theme">
+          <div class="theme-label">
+            Light
+          </div>
+          <div class="theme">
+            <div class="color background"></div>
+            <div class="color shade-100"></div>
+            <div class="color shade-300"></div>
+            <div class="color shade-500"></div>
+            <div class="color text"></div>
+          </div>
+        </button>
+        <button class="dark theme-select" id="dark-select" onclick="setTheme('dark')"
+          onkeydown="(e) => setThemeKey(e, 'dark')" aria-label="Set dark theme">
+          <div class="theme-label">
+            Dark
+          </div>
+          <div class="theme">
+            <div class="color background"></div>
+            <div class="color shade-100"></div>
+            <div class="color shade-300"></div>
+            <div class="color shade-500"></div>
+            <div class="color text"></div>
+          </div>
+        </button>
+        <button class="brown theme-select" id="brown-select" onclick="setTheme('brown')" aria-label="Set brown theme">
+          <div class="theme-label">
+            Brown
+          </div>
+          <div class="theme">
+            <div class="color background"></div>
+            <div class="color shade-100"></div>
+            <div class="color shade-300"></div>
+            <div class="color shade-500"></div>
+            <div class="color text"></div>
+          </div>
+        </button>
+      
+        <button class="pink theme-select" id="pink-select" onclick="setTheme('pink')" aria-label="Set pink theme">
+          <div class="theme-label">
+            Pink
+          </div>
+          <div class="theme">
+            <div class="color background"></div>
+            <div class="color shade-100"></div>
+            <div class="color shade-300"></div>
+            <div class="color shade-500"></div>
+            <div class="color text"></div>
+          </div>
+        </button>
+      
+    
+      </div>
+    </div>
+  </nav>
+  <main>
+    <section class="container">
+      <h1 class="section-title">Projects <span class="title-icon">&#128187;</span></h1>
+      <p class="section-subtitle">
+        Some of the web apps and web sites I have built as a front-end developer are below;
+    </section>
+    <section id="websites" class="container">
+      <h2 class="subsection-title">
+        Webpages (6)
+      </h2>
+      <div class="main-text project-scroll">
+        <div class="project">
+          <div class="project-image">
+            <img src="images/projects/Udemy clone.png" width="720" height="340" alt="Udemy Website">
+          </div>
+          <div class="project-text">
+            <h3 class="project-title">Udemy Clone</h3>
+            <p>A clone of the <a href="https://www.udemy.com/?utm=362147dd8ece42dcad7c9bef32603a51&track=1&pt=2" target="_blank" rel="noopener">Udemy</a> landing
+              page</p>
+            <ul class="project-tags">
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://udemy-landing-page-clone-eta.vercel.app/" target="_blank" rel="noopener">visit site</a>
+              <a href="https://github.com/Brown-byte/Udemy-Landing-Page-Clone" target="_blank" rel="noopener">source
+                code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-image">
+            <img src="images/projects/Netflix.png" width="720" height="340" alt="Netflix Website">
+          </div>
+          <div class="project-text">
+            <h3 class="project-title">Netflix Clone</h3>
+            <p>A clone of the <a href="https://www.netflix.com/gh/" target="_blank" rel="noopener">Netflix</a> landing
+              page</p>
+            <ul class="project-tags">
+              <li>Html</li>
+              <li>CSS</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://netflix-landing-page-clone-rho.vercel.app/" target="_blank" rel="noopener">visit
+                site</a>
+              <a href="https://github.com/Brown-byte/Netflix-Landing-Page-Clone" target="_blank" rel="noopener">source
+                code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-image">
+            <img src="images/projects/Starwars.png" width="720" height="340" alt="Starwars Website">
+          </div>
+          <div class="project-text">
+            <h3 class="project-title"></h3>
+            <p>A clone of the a part of StarWars Webpage
+            <ul class="project-tags">
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://star-wars-clone-git-one-brown-byte.vercel.app/" target="_blank" rel="noopener">visit
+                site</a>
+              <a href="https://github.com/Brown-byte/Star-Wars" target="_blank"
+                rel="noopener">source
+                code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-image">
+            <img src="images/projects/UserProfiles.png" width="720" height="340" alt="User Profiles Website">
+          </div>
+          <div class="project-text">
+            <h3 class="project-title">User Profiles</h3>
+            <p>A page used to search user profiles available
+            </p>
+            <ul class="project-tags">
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://website3-user-profiles-filtering.vercel.app/" target="_blank" rel="noopener">visit
+                site</a>
+              <a href="https://github.com/Brown-byte/Website3-UserProfiles-Filtering-" target="_blank"
+                rel="noopener">source
+                code</a>
+            </div>
+          </div>
+        </div>
+      
+        <div class="project">
+          <div class="project-image">
+            <img src="images/projects/Google CR clone.png" width="720" height="340" alt="Google CR clone Website">
+          </div>
+          <div class="project-text">
+            <h3 class="project-title">Google CR clone</h3>
+            <p>Google CR Clone is a static clone of the original Google CR webpage</p>
+            <ul class="project-tags">
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://google-search-page-clone.vercel.app/" target="_blank" rel="noopener">visit
+                site</a>
+                <a href="https://github.com/Brown-byte/Google-Search-Page-Clone" target="_blank"
+                rel="noopener">source
+                code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-image">
+            <img src="images/projects/Google.png" width="720" height="340" alt="Google C Website">
+          </div>
+          <div class="project-text">
+            <h3 class="project-title">Google clone</h3>
+            <p>A Clone of the actual google landing page</p>
+            <ul class="project-tags">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://website2-states-and-props.vercel.app/" target="_blank" rel="noopener">visit
+                site</a>
+                <a href="https://github.com/Brown-byte/Website2-States-and-Props" target="_blank"
+                rel="noopener">source
+                code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="apps" class="container">
+      <h2 class="subsection-title">
+        Web Apps (2)
+      </h2>
+      <div class="main-text project-scroll">
+        <div class="project">
+          <div class="project-image">
+            <img src="images/projects/SmartLend.png" width="720" height="340" alt="A SmartLend WebApp">
+          </div>
+          <div class="project-text">
+            <h3 class="project-title">SmartLend</h3>
+            <p>SmartLend is a web app that was built by my team and I and it is specifically used by Financial Institutions such as banks etc.</p>
+            <ul class="project-tags">
+              <li>React</li>
+              <li>JavaScript</li>
+              <li>CSS-SASS</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://team3a-loan-app.netlify.app/" target="_blank" rel="noopener">visit site</a>
+              <a href="" target="_blank" rel="noopener">source code</a>
+            </div>
+          </div>
+        </div>
+          <div class="project">
+          <div class="project-image">
+            <img src="images/projects/To do List.png" width="720" height="340" alt="To-Do WebApp">
+          </div>
+          <div class="project-text">
+            <h3 class="project-title">To-Do</h3>
+            <p>To-Do is a WebAppthat helps keep track of what you have planned to do probably in a day, a week or a month.</p>
+            <ul class="project-tags">
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://to-do-list-rho-lake.vercel.app/" target="_blank" rel="noopener">visit site</a>
+              <a href="https://github.com/Brown-byte/To-Do-List" target="_blank"
+              rel="noopener">source
+              code</a>
+            </div>
+          </div>
+        </div>
+    
+    </section>
+    <section id="portfolios" class="container">
+      <h2 class="subsection-title">
+        Graphic Designs (7)
+      </h2>
+      <div class="main-text project-scroll">
+        <div class="project">
+          <div class="project-image">
+            <img src="images/projects/photo_2022-11-07_22-18-16.jpg" width="720" height="340"
+              alt="">
+          </div>
+          <div class="project-text">
+            <h3 class="project-title">Nova Exchange</h3>
+            <ul class="project-tags">
+              <li>Affinity Designer</li>
+            </ul>
+            <div class="project-links">
+              <a href="" target="_blank" rel="noopener"> No source
+                code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-image">
+            <img src="images/projects/xmas 1.png" width="720" height="340"
+              alt="">
+          </div>
+          <div class="project-text">
+            <h3 class="project-title">Christmas Sales</h3>
+            <ul class="project-tags">
+              <li>Affinity Designer</li>
+            </ul>
+            <div class="project-links">
+              <a href="" target="_blank" rel="noopener">No source
+                code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-image">
+            <img src="images/projects/Design trial 2.png" width="720" height="340"
+              alt="">
+          </div>
+          <div class="project-text">
+            <h3 class="project-title">A new Month</h3>
+            <ul class="project-tags">
+              <li>Affinity Designer</li>
+            </ul>
+            <div class="project-links">
+              <a href="" target="_blank" rel="noopener">No source
+                code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-image">
+            <img src="images/projects/photo_2022-09-24_22-49-58.jpg" width="720" height="340"
+              alt="">
+          </div>
+          <div class="project-text">
+            <h3 class="project-title">Vera's Kitchen</h3>
+            <ul class="project-tags">
+              <li>Affinity Designer</li>
+            </ul>
+            <div class="project-links">
+              <a href="" target="_blank" rel="noopener">No source
+                code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-image">
+            <img src="images/projects/photo_2022-12-19_20-18-27.jpg" width="720" height="340"
+              alt="">
+          </div>
+          <div class="project-text">
+            <h3 class="project-title">Christmas Promo</h3>
+            <ul class="project-tags">
+              <li>Affinity Designer</li>
+            </ul>
+            <div class="project-links">
+              <a href="" target="_blank" rel="noopener">No source
+                code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-image">
+            <img src="images/projects/photo_2023-05-09_16-01-12.jpg" width="720" height="340"
+              alt="">
+          </div>
+          <div class="project-text">
+            <h3 class="project-title">Morks Collection</h3>
+            <ul class="project-tags">
+              <li>Affinity Designer</li>
+            </ul>
+            <div class="project-links">
+              <a href="" target="_blank" rel="noopener">No source
+                code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project-image">
+            <img src="images/projects/photo_2023-05-10_10-40-32.jpg" width="720" height="340"
+              alt="">
+          </div>
+          <div class="project-text">
+            <h3 class="project-title">Lebby's Thrift Stores</h3>
+            <ul class="project-tags">
+              <li>Affinity Designer</li>
+            </ul>
+            <div class="project-links">
+              <a href="" target="_blank" rel="noopener">No source
+                code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div class="page-nav container">
+    <a href="about.html">&#8592; About</a>
+    <a href="index1.html">Home &#8594;</a>
+ 
+  </div>
+  <!--<div class="wave-border top">
+    <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+      <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+        style="stroke: none; fill: var(--shade-100)"></path>
+      <path class="neon-path" d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98"
+        style="stroke: var(--neon-color);fill: none;"></path>
+    </svg>
+  </div>-->
+  <footer>
+          
+    </div>
+    <div class="container">
+      <div class="social-media">
+        <a href="https://github.com/Brown-byte" title="Github">
+          <i class="demo-icon icon-github-circled"></i>
+        </a>
+        <a href="" title="Twitter">
+          <i class="demo-icon icon-twitter"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/emmanuella-tsali-brown-6275a0228/" title="LinkedIn">
+          <i class="demo-icon icon-linkedin"></i>
+        </a>
+      </div>
+      <div class="copyright">
+        &copy; <a href="">Jemima Abu</a> <span
+          class="heart">&hearts;</span>
+      </div>
+    </div>
+  </footer>
+</body>
+
+<script src="js/index1.js"></script>
+
+</html>
